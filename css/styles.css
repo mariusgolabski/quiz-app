@@ -118,6 +118,11 @@ nav > ul > a > li {
   gap: 1rem;
 }
 
+.bookmark-btn {
+  border: none;
+  cursor: pointer;
+}
+
 .bi {
   font-size: 2rem;
   border-radius: 8px;
