@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+nav > ul > li {
+  list-style: none;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-inline-start: 0px;
+}
+
