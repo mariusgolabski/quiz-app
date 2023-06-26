@@ -131,6 +131,14 @@ nav > ul > a > li {
   padding: 10px 4rem;
 }
 
+.bi-bookmark-plus {
+  background-color: #fff;
+  position: absolute;
+  top: -25px;
+  right: 25px;
+  padding: 8px 6px;
+}
+
 .bi:hover:not(.active) {
   background-color: #f2f2f3;
 }
@@ -149,6 +157,7 @@ nav > ul > a > li {
 }
 
 .card {
+  position: relative;
   border: solid 1px;
   border-radius: 20px;
   display: flex;
