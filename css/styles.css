@@ -113,7 +113,7 @@ nav {
   padding: 1rem 0px 1rem 0;
 }
 
-nav > ul > li {
+nav > ul > a > li {
   list-style: none;
   cursor: pointer;
 }
