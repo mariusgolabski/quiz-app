@@ -130,7 +130,8 @@ nav > ul > a > li {
   padding: 10px 4rem;
 }
 
-.bi-bookmark-plus {
+.bi-bookmark-plus,
+.bi-bookmark-dash {
   background-color: #fff;
   position: absolute;
   top: -25px;
@@ -138,7 +139,15 @@ nav > ul > a > li {
   padding: 8px 6px;
 }
 
-.bi:hover:not(.active) {
+.bi-bookmark-plus:hover {
+  background-color: #59ce8f;
+}
+
+.bi-bookmark-dash:hover {
+  background-color: #ff1e00;
+}
+
+footer > nav > ul > a > li .bi:hover:not(.active) {
   background-color: #f2f2f3;
 }
 
