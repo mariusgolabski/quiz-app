@@ -60,11 +60,13 @@ body {
 }
 
 .header {
+  z-index: 10;
   background-color: #fff;
 }
 
 .container-xl {
   max-width: 1280px;
+  margin: 8rem 0 8rem 0;
 }
 
 .mx-auto {
@@ -88,14 +90,6 @@ body {
   bottom: 0px;
 }
 
-.mt-6 {
-  margin-top: 6rem;
-}
-
-.mt-8 {
-  margin-top: 8rem;
-}
-
 .bg-white {
   background-color: rgb(255 255 255);
 }
@@ -113,7 +107,7 @@ nav {
   padding: 1rem 0px 1rem 0;
 }
 
-nav > ul > li {
+nav > ul > a > li {
   list-style: none;
   cursor: pointer;
 }
@@ -124,14 +118,36 @@ nav > ul > li {
   gap: 1rem;
 }
 
+.bookmark-btn {
+  border: none;
+  cursor: pointer;
+}
+
 .bi {
   font-size: 2rem;
   border-radius: 8px;
   color: #000;
-  padding: 10px 4rem;
+  padding: 0.625 4rem;
 }
 
-.bi:hover:not(.active) {
+.bi-bookmark-plus,
+.bi-bookmark-dash {
+  background-color: #fff;
+  position: absolute;
+  top: -25px;
+  right: 25px;
+  padding: 8px 6px;
+}
+
+.bi-bookmark-plus:hover {
+  background-color: #59ce8f;
+}
+
+.bi-bookmark-dash:hover {
+  background-color: #ff1e00;
+}
+
+footer > nav > ul > a > li .bi:hover:not(.active) {
   background-color: #f2f2f3;
 }
 
@@ -149,6 +165,7 @@ nav > ul > li {
 }
 
 .card {
+  position: relative;
   border: solid 1px;
   border-radius: 20px;
   display: flex;
