@@ -33,18 +33,6 @@
   background-color: rgb(255 255 255);
 }
 
-.bookmark-btn {
-  border: none;
-  cursor: pointer;
-}
-
-.bi {
-  font-size: 2rem;
-  border-radius: 8px;
-  color: #000;
-  padding: 0.625rem 4rem;
-}
-
 .bi-bookmark-plus,
 .bi-bookmark-dash {
   background-color: #fff;
@@ -68,27 +56,6 @@
   flex-wrap: wrap;
   margin: 1rem;
   gap: 2rem;
-}
-
-.show-answer-btn {
-  padding: 1rem 2rem;
-  background-color: #000;
-  color: #fff;
-  border: none;
-  border-radius: 12px;
-  font-size: 1rem;
-  cursor: pointer;
-}
-
-.card-tags-container {
-  margin: 2rem;
-}
-
-.tag-item {
-  border: solid 1px;
-  padding: 8px 16px;
-  border-radius: 20px;
-  background-color: #f2f2f3;
 }
 
 .border-bottom {
