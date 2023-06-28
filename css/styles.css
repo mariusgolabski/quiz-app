@@ -1,6 +1,7 @@
 @import "fonts.css";
 @import "globals.css";
 @import "../css/components/header.css";
+@import "../css/components/question-card.css";
 
 .container-xl {
   max-width: 1280px;
