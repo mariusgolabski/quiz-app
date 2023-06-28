@@ -1,11 +1,6 @@
 @import "fonts.css";
 @import "globals.css";
 
-.header {
-  z-index: 10;
-  background-color: #fff;
-}
-
 .container-xl {
   max-width: 1280px;
   margin: 8rem 0 8rem 0;
@@ -34,22 +29,6 @@
 
 .bg-white {
   background-color: rgb(255 255 255);
-}
-
-
-nav {
-  padding: 1rem 0px 1rem 0;
-}
-
-nav > ul > a > li {
-  list-style: none;
-  cursor: pointer;
-}
-
-.nav-items {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
 }
 
 .bookmark-btn {
@@ -81,31 +60,12 @@ nav > ul > a > li {
   background-color: #ff1e00;
 }
 
-footer > nav > ul > a > li .bi:hover:not(.active) {
-  background-color: #f2f2f3;
-}
-
-.active {
-  background-color: #000;
-  color: #fff;
-}
-
 .card-container {
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
   margin: 1rem;
   gap: 2rem;
-}
-
-.card {
-  position: relative;
-  border: solid 1px;
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .show-answer-btn {

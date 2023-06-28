@@ -1,0 +1,9 @@
+.card {
+    position: relative;
+    border: solid 1px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
