@@ -1,5 +1,6 @@
 @import "fonts.css";
 @import "globals.css";
+@import "../css/components/header.css";
 
 .container-xl {
   max-width: 1280px;
