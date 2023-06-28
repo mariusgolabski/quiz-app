@@ -61,7 +61,7 @@
   background-color: #ff1e00;
 }
 
-.questions-card-container {
+.question-cards-wrapper {
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
