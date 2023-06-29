@@ -44,3 +44,17 @@
   border-radius: 20px;
   background-color: #f2f2f3;
 }
+
+.question-card__add-bookmark {
+  width: 2.725rem;
+  position: absolute;
+  background-color: #fff;
+  top: -25px;
+  right: 25px;
+  padding: 8px 6px;
+}
+
+.question-card__add-bookmark:hover {
+  background-color: #59ce8f;
+  border-radius: 8px;
+}

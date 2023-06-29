@@ -10,10 +10,10 @@ body {
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 400;
+  font-size: 16px;
 }
 
 h1 {
   text-align: center;
   padding: 1rem 0px 1rem 0;
 }
-
