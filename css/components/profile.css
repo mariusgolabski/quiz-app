@@ -1,0 +1,10 @@
+.profile {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+}
+
+.profile__img {
+  width: 8rem;
+  border-radius: 50%;
+}
