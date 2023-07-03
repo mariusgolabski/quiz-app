@@ -1,8 +1,10 @@
-footer > nav > ul > a > li .bi:hover:not(.active) {
-  background-color: #f2f2f3;
-}
-
 .active {
   background-color: #000;
   color: #fff;
+}
+
+.footer {
+  background-color: #fff;
+  position: fixed;
+  bottom: 0px;
 }

@@ -1,16 +1,30 @@
 .nav__list {
   display: flex;
   list-style: none;
-  gap: 5rem;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .nav__icon {
-  width: 3rem;
-  margin: 1rem 0 1rem 0;
+  width: 2rem;
 }
 
-.nav__icon :hover {
-  color: green;
-  background-color: green;
+.nav__list-link {
+  display: inline-block;
+  padding: 0.625rem 4rem;
+  margin: 0.625rem;
+  background-color: #f0f2f0;
+  border-radius: 0.625rem;
+}
+
+.nav__list-svg {
+  width: 2rem;
+  color: #000;
+}
+
+.nav__list-link:hover {
+  background-color: #000;
+}
+
+.nav__list-link:hover .nav__list-svg {
+  color: white;
 }
