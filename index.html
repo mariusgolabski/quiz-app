@@ -19,12 +19,13 @@
         <!-- card -->
         <article class="question-card">
           <button class="question-card__bookmark-btn">
-            <i
-              ><img
+            <i>
+              <img
                 class="question-card__add-bookmark"
                 src="./assets/svg/bookmark-plus.svg"
                 alt="bookmark"
-            /></i>
+              />
+            </i>
             <!-- <i class="question-card__bi bi-bookmark-plus"></i> -->
           </button>
           <h2 class="question-card__title">
@@ -42,17 +43,31 @@
     </main>
     <footer class="border-top bottom-0 w-full bg-white">
       <!-- Nav -->
-      <nav>
-        <ul class="nav-items">
-          <a href="#">
-            <li><i class="bi bi-house active"></i></li>
-          </a>
-          <a href="./pages/bookmarks.html">
-            <li><i class="bi bi-bookmark"></i></li>
-          </a>
-          <a href="#">
-            <li><i class="bi bi-person-circle"></i></li>
-          </a>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__list-item">
+            <a class="nav__link" href="#">
+              <img class="nav__icon" src="./assets/svg/house.svg" alt="Home" />
+            </a>
+          </li>
+          <li class="nav__list-item">
+            <a href="./pages/bookmarks.html">
+              <img
+                class="nav__icon"
+                src="./assets/svg/bookmark.svg"
+                alt="Bookmarks"
+              />
+            </a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#">
+              <img
+                class="nav__icon"
+                src="./assets/svg/person.svg"
+                alt="Profile"
+              />
+            </a>
+          </li>
         </ul>
       </nav>
       <!-- End Nav -->

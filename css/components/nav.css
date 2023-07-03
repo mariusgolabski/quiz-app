@@ -1,14 +1,16 @@
-nav {
-  padding: 1rem 0px 1rem 0;
-}
-
-nav > ul > a > li {
-  list-style: none;
-  cursor: pointer;
-}
-
-.nav-items {
+.nav__list {
   display: flex;
+  list-style: none;
+  gap: 5rem;
   justify-content: center;
-  gap: 1rem;
+}
+
+.nav__icon {
+  width: 3rem;
+  margin: 1rem 0 1rem 0;
+}
+
+.nav__icon :hover {
+  color: green;
+  background-color: green;
 }
