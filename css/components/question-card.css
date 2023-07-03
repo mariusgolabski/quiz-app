@@ -52,9 +52,17 @@
   top: -25px;
   right: 25px;
   padding: 8px 6px;
+  border-radius: 8px;
 }
 
 .question-card__add-bookmark:hover {
   background-color: #59ce8f;
-  border-radius: 8px;
+}
+
+/* .question-card__add-bookmark--state-marked {
+  background-color: #59ce8f;
+} */
+
+.question-card__add-bookmark--state-marked:hover {
+  background-color: #ff1e00;
 }
