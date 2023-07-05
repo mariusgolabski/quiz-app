@@ -1,4 +1,13 @@
+.question-cards-wrapper {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem;
+  gap: 2rem;
+}
+
 .question-card {
+  width: 100%;
   position: relative;
   border: solid 1px;
   border-radius: 20px;

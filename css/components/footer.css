@@ -4,6 +4,8 @@
 }
 
 .footer {
+  width: 100%;
+  border-top: 1px solid;
   background-color: #fff;
   position: fixed;
   bottom: 0px;
